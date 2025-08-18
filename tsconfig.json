@@ -22,18 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "app/**/*",
-    "pages/**/*",
-    "components/**/*",
-    "lib/**/*",
-    ".next/types/**/*.ts"
-    // "prisma/seed.ts" // Uncomment if you add this file in the future
-  ],
-  "exclude": [
-    "node_modules",
-    ".next",
-    "prisma/seed.ts"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", ".next/types/**/*.ts"],
+"exclude": ["node_modules", "prisma/seed.ts"]
 }

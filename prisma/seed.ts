@@ -1,3 +1,0 @@
-// prisma/seed.ts
-export {}
-
